@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <script src="jquery3.js"></script>
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Copy Paste</title>
+</head>
+<body>
+		<center>	
+			<nav>
+				<h1>Copy & Paste</h1>
+
+			</nav>
+		</center>	
+		<center id="container">
+			<form action="/user_copy" method="POST">
+				<p>
+					<textarea name="user_text_data" id="copyf" cols="100" rows="10" autofocus required placeholder="Enter Your Text Here" minlength="1" maxlength="60000"></textarea>
+				</p>
+				<p>
+					<input type="submit" value="Save" id="btn1">
+				</p>
+			</form>	
+		</center>
+			
+	<script type="text/javascript" src="process.js"></script>
+
+	</script>
+</body>
+
+</html>
